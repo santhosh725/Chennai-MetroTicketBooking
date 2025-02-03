@@ -221,7 +221,7 @@ public class Implementation {
 			System.out.print("ENTER YOUR PHONENUMBER:");
 			String phoneNumber=sc.nextLine();
 			if (!isValidPhoneNumber(phoneNumber)) {
-		        System.out.println("❌ Invalid phone number! Must be exactly 10 digits.");
+		        System.out.println("Invalid phone number! Must be exactly 10 digits.");
 		        return; // Stop execution if phone number is invalid
 		    }
 			System.out.print("ENTER YOUR NAME : ");
